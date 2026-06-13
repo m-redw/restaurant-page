@@ -20,7 +20,7 @@ function createIntro() {
 
     p.textContent = `Hey, I'm Ed and I love me some eggs!
                 This restaurant has egg dishes galore!
-                From just quail eggs to omurice, the variety
+                From hard-boiled eggs to omurice, the variety
                 of egg dishes may `;
     crack.textContent = 'crack';
     youUp.textContent = ' you up!'
