@@ -32,6 +32,14 @@ button {
     font-size: 16px;
 }
 
+button:hover {
+    background-color: #d88c00;
+}
+
+button:active {
+    background-color: #bd5b00;
+}
+
 h1 {
     width: 350px;
     height: 100px;

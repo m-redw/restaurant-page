@@ -19,7 +19,7 @@ function createIntro() {
     
     const p2 = docCreate('p');
     p2.textContent = `I made this restaurant to share my love with them.
-                If you love eggs as much as me, come try my restaurant out.`;
+                If you love eggs as much as I do, come try my restaurant out.`;
     
     const p3 = docCreate('p');
     p3.textContent = '(399 Egg St, Crackissipi, Yolkica)';
