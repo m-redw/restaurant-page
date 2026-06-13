@@ -46,8 +46,13 @@ section {
 }
 
 h2 {
-    margin: 0;
+    margin: 0 0 15px 0;
     font-size: 32px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 24px;
 }
 
 p {
@@ -69,4 +74,38 @@ p {
 
 .open {
     width: 350px;
+}
+
+.menu-section {
+    width: 700px;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 15px;
+}
+
+.menu-item {
+    margin: 0 0 15px 0;
+    padding: 15px;
+    width: 300px;
+    background-color: white;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.menu-item .description {
+    height: 60px;
+    overflow: auto;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-item .price {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
 }

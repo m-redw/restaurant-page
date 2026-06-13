@@ -1,5 +1,6 @@
 import "./index.css";
 import {loadHomepage} from "./homepage.js";
+import {loadMenu} from "./menu.js";
 
 function clearContent() {
     const content = document.querySelector('#content');
@@ -15,4 +16,10 @@ homeButton.addEventListener('click', ()=>{
     loadHomepage();
 });
 
-loadHomepage();
+const menuButton = document.querySelector('.menu');
+menuButton.addEventListener('click', ()=>{
+    clearContent();
+    loadMenu();
+});
+
+loadMenu();

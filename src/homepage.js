@@ -1,16 +1,4 @@
-import tempImage from "./temp-image.png";
-
-const content = document.querySelector('#content');
-
-function docCreate(element) {
-    return document.createElement(element);
-}
-
-function sectionCreate(className) {
-    const section = docCreate('section');
-    section.classList.add(className);
-    return section;
-} 
+import {tempImage, content, docCreate, sectionCreate} from './page.js';
 
 function createHeader() {
     const header = docCreate('h1');
